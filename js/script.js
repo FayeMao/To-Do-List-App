@@ -2,7 +2,7 @@ const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 let tasksArray = [] // Array to store tasks
 
-function addTask(task) {
+function addTask() {
     if (inputBox.value === '') {
         alert("Please write something!");
     } else {
